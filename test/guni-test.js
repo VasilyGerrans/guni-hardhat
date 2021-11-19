@@ -116,7 +116,7 @@ describe("GuniLev Contracts", function () {
   describe("trades", async () => {
     /*
 
-    Will always with reason string 'Vat/ceiling-exceeded'
+    Will always fail with reason string 'Vat/ceiling-exceeded'
 
     (unless I edit the block first)
 
