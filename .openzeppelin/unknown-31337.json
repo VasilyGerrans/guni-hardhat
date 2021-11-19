@@ -1,0 +1,282 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xBEc49fA140aCaA83533fB00A2BB19bDdd0290f25",
+    "txHash": "0xe4c008170be6cca39e1a4f6b7d20aa1a64a9df02f7d90a6b006f24da34034bb3",
+    "deployTransaction": {
+      "hash": "0xe4c008170be6cca39e1a4f6b7d20aa1a64a9df02f7d90a6b006f24da34034bb3",
+      "type": 2,
+      "accessList": [],
+      "blockHash": "0x7f13ea9968ffb9d42d695c77f0cc672e79c6ca4ee17011245c56a650978611ad",
+      "blockNumber": 13645844,
+      "transactionIndex": 0,
+      "confirmations": 1,
+      "from": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "gasPrice": {
+        "type": "BigNumber",
+        "hex": "0x1d0613d1d7"
+      },
+      "maxPriorityFeePerGas": {
+        "type": "BigNumber",
+        "hex": "0x3b9aca00"
+      },
+      "maxFeePerGas": {
+        "type": "BigNumber",
+        "hex": "0x39d08cd9ae"
+      },
+      "gasLimit": {
+        "type": "BigNumber",
+        "hex": "0x0762b4"
+      },
+      "to": null,
+      "value": {
+        "type": "BigNumber",
+        "hex": "0x00"
+      },
+      "nonce": 82,
+      "data": "0x608060405234801561001057600080fd5b50600080546001600160a01b031916339081178255604051909182917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0908290a350610759806100616000396000f3fe60806040526004361061007b5760003560e01c80639623609d1161004e5780639623609d1461011157806399a88ec414610124578063f2fde38b14610144578063f3b7dead146101645761007b565b8063204e1c7a14610080578063715018a6146100bc5780637eff275e146100d35780638da5cb5b146100f3575b600080fd5b34801561008c57600080fd5b506100a061009b366004610515565b610184565b6040516001600160a01b03909116815260200160405180910390f35b3480156100c857600080fd5b506100d1610215565b005b3480156100df57600080fd5b506100d16100ee366004610554565b610292565b3480156100ff57600080fd5b506000546001600160a01b03166100a0565b6100d161011f36600461058c565b61031c565b34801561013057600080fd5b506100d161013f366004610554565b6103ad565b34801561015057600080fd5b506100d161015f366004610515565b610405565b34801561017057600080fd5b506100a061017f366004610515565b6104ef565b6000806000836001600160a01b03166040516101aa90635c60da1b60e01b815260040190565b600060405180830381855afa9150503d80600081146101e5576040519150601f19603f3d011682016040523d82523d6000602084013e6101ea565b606091505b5091509150816101f957600080fd5b8080602001905181019061020d9190610538565b949350505050565b6000546001600160a01b031633146102485760405162461bcd60e51b815260040161023f906106c0565b60405180910390fd5b600080546040516001600160a01b03909116907f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0908390a3600080546001600160a01b0319169055565b6000546001600160a01b031633146102bc5760405162461bcd60e51b815260040161023f906106c0565b6040516308f2839760e41b81526001600160a01b038281166004830152831690638f283970906024015b600060405180830381600087803b15801561030057600080fd5b505af1158015610314573d6000803e3d6000fd5b505050505050565b6000546001600160a01b031633146103465760405162461bcd60e51b815260040161023f906106c0565b60405163278f794360e11b81526001600160a01b03841690634f1ef286903490610376908690869060040161065d565b6000604051808303818588803b15801561038f57600080fd5b505af11580156103a3573d6000803e3d6000fd5b5050505050505050565b6000546001600160a01b031633146103d75760405162461bcd60e51b815260040161023f906106c0565b604051631b2ce7f360e11b81526001600160a01b038281166004830152831690633659cfe6906024016102e6565b6000546001600160a01b0316331461042f5760405162461bcd60e51b815260040161023f906106c0565b6001600160a01b0381166104945760405162461bcd60e51b815260206004820152602660248201527f4f776e61626c653a206e6577206f776e657220697320746865207a65726f206160448201526564647265737360d01b606482015260840161023f565b600080546040516001600160a01b03808516939216917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e091a3600080546001600160a01b0319166001600160a01b0392909216919091179055565b6000806000836001600160a01b03166040516101aa906303e1469160e61b815260040190565b600060208284031215610526578081fd5b81356105318161070b565b9392505050565b600060208284031215610549578081fd5b81516105318161070b565b60008060408385031215610566578081fd5b82356105718161070b565b915060208301356105818161070b565b809150509250929050565b6000806000606084860312156105a0578081fd5b83356105ab8161070b565b925060208401356105bb8161070b565b9150604084013567ffffffffffffffff808211156105d7578283fd5b818601915086601f8301126105ea578283fd5b8135818111156105fc576105fc6106f5565b604051601f8201601f19908116603f01168101908382118183101715610624576106246106f5565b8160405282815289602084870101111561063c578586fd5b82602086016020830137856020848301015280955050505050509250925092565b600060018060a01b038416825260206040818401528351806040850152825b818110156106985785810183015185820160600152820161067c565b818111156106a95783606083870101525b50601f01601f191692909201606001949350505050565b6020808252818101527f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572604082015260600190565b634e487b7160e01b600052604160045260246000fd5b6001600160a01b038116811461072057600080fd5b5056fea2646970667358221220d849f96f3086b9f82cdcf665adb8c697ace05638da1c7c16ab2d26293717af6764736f6c63430008020033",
+      "r": "0xd10fd748205ad5ca47a311a0802279e6b624c62e8d63bfd8087b80e79afc3973",
+      "s": "0x72bba30a6e4286fe4a5b6fd4f859a50ba3ce91e9d2f10bbafe028db2e51cdb14",
+      "v": 0,
+      "creates": "0xBEc49fA140aCaA83533fB00A2BB19bDdd0290f25",
+      "chainId": 31337
+    }
+  },
+  "proxies": [
+    {
+      "address": "0x07882Ae1ecB7429a84f1D53048d35c4bB2056877",
+      "txHash": "0xabcf912aa4370d209d81d9cca1fafccea1ee8d558ba219a8a2d6ba0a7d1960e3",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xD84379CEae14AA33C123Af12424A37803F885889",
+      "txHash": "0xc035b075598625b116a3abb13c885faadf72896bd7529d9e2093cf0bc8445bd7",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x4C2F7092C2aE51D986bEFEe378e50BD4dB99C901",
+      "txHash": "0x3c93b63ec4e86354f97f190e1576cd794a8d6219c07e11c1e794a6db5d197867",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xAA292E8611aDF267e563f334Ee42320aC96D0463",
+      "txHash": "0xbd06b6afb98004578aee09a29a7bc94a9be341081bb9de0dcb56abcce393162b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xCace1b78160AE76398F486c8a18044da0d66d86D",
+      "txHash": "0xb713b8f73f226bfb4c3fb61c6a1f78f030c8b5e31a4be6807305da867c6fbe50",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "064cb51f360890017988703c949e0724eb4b954673e09b8c8d1bfabad64bb577": {
+      "address": "0x4EE6eCAD1c2Dae9f525404De8555724e3c35d07B",
+      "txHash": "0xfca87b96323cf340952e31aa8e71ba500e6dac1c98aab68052c18a0ecf418b1e",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:21"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:26"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:30"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:21"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:77"
+          },
+          {
+            "contract": "GuniLev",
+            "label": "ilk",
+            "type": "t_bytes32",
+            "src": "contracts/GuniLev.sol:13"
+          },
+          {
+            "contract": "GuniLev",
+            "label": "vat",
+            "type": "t_contract(VatLike)2931",
+            "src": "contracts/GuniLev.sol:15"
+          },
+          {
+            "contract": "GuniLev",
+            "label": "daiJoin",
+            "type": "t_contract(DaiJoinLike)2877",
+            "src": "contracts/GuniLev.sol:16"
+          },
+          {
+            "contract": "GuniLev",
+            "label": "spotter",
+            "type": "t_contract(SpotLike)2941",
+            "src": "contracts/GuniLev.sol:17"
+          },
+          {
+            "contract": "GuniLev",
+            "label": "dai",
+            "type": "t_contract(IERC20)2620",
+            "src": "contracts/GuniLev.sol:18"
+          },
+          {
+            "contract": "GuniLev",
+            "label": "lender",
+            "type": "t_contract(IERC3156FlashLender)272",
+            "src": "contracts/GuniLev.sol:19"
+          },
+          {
+            "contract": "GuniLev",
+            "label": "router",
+            "type": "t_contract(GUNIRouterLike)2801",
+            "src": "contracts/GuniLev.sol:20"
+          },
+          {
+            "contract": "GuniLev",
+            "label": "resolver",
+            "type": "t_contract(GUNIResolverLike)2817",
+            "src": "contracts/GuniLev.sol:21"
+          },
+          {
+            "contract": "GuniLev",
+            "label": "winder",
+            "type": "t_contract(GuniLevWind)2552",
+            "src": "contracts/GuniLev.sol:23"
+          },
+          {
+            "contract": "GuniLev",
+            "label": "unwinder",
+            "type": "t_contract(GuniLevUnwind)1574",
+            "src": "contracts/GuniLev.sol:24"
+          },
+          {
+            "contract": "GuniLev",
+            "label": "poolWinderExists",
+            "type": "t_mapping(t_bytes32,t_bool)",
+            "src": "contracts/GuniLev.sol:42"
+          },
+          {
+            "contract": "GuniLev",
+            "label": "poolWinders",
+            "type": "t_mapping(t_bytes32,t_struct(PoolWinder)380_storage)",
+            "src": "contracts/GuniLev.sol:43"
+          }
+        ],
+        "types": {
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_contract(VatLike)2931": {
+            "label": "contract VatLike"
+          },
+          "t_contract(DaiJoinLike)2877": {
+            "label": "contract DaiJoinLike"
+          },
+          "t_contract(SpotLike)2941": {
+            "label": "contract SpotLike"
+          },
+          "t_contract(IERC20)2620": {
+            "label": "contract IERC20"
+          },
+          "t_contract(IERC3156FlashLender)272": {
+            "label": "contract IERC3156FlashLender"
+          },
+          "t_contract(GUNIRouterLike)2801": {
+            "label": "contract GUNIRouterLike"
+          },
+          "t_contract(GUNIResolverLike)2817": {
+            "label": "contract GUNIResolverLike"
+          },
+          "t_contract(GuniLevWind)2552": {
+            "label": "contract GuniLevWind"
+          },
+          "t_contract(GuniLevUnwind)1574": {
+            "label": "contract GuniLevUnwind"
+          },
+          "t_mapping(t_bytes32,t_bool)": {
+            "label": "mapping(bytes32 => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_bytes32,t_struct(PoolWinder)380_storage)": {
+            "label": "mapping(bytes32 => struct GuniLev.PoolWinder)"
+          },
+          "t_struct(PoolWinder)380_storage": {
+            "label": "struct GuniLev.PoolWinder",
+            "members": [
+              {
+                "label": "join",
+                "type": "t_contract(GemJoinLike)2852"
+              },
+              {
+                "label": "otherToken",
+                "type": "t_contract(IERC20)2620"
+              },
+              {
+                "label": "curve",
+                "type": "t_contract(CurveSwapLike)2760"
+              },
+              {
+                "label": "curveIndexDai",
+                "type": "t_int128"
+              },
+              {
+                "label": "curveIndexOtherToken",
+                "type": "t_int128"
+              },
+              {
+                "label": "otherTokenTo18Conversion",
+                "type": "t_uint256"
+              },
+              {
+                "label": "guni",
+                "type": "t_contract(GUNITokenLike)2730"
+              }
+            ]
+          },
+          "t_contract(GemJoinLike)2852": {
+            "label": "contract GemJoinLike"
+          },
+          "t_contract(CurveSwapLike)2760": {
+            "label": "contract CurveSwapLike"
+          },
+          "t_int128": {
+            "label": "int128"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_contract(GUNITokenLike)2730": {
+            "label": "contract GUNITokenLike"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    }
+  }
+}
